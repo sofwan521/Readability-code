@@ -6,13 +6,13 @@ Alat analisis **readability kode PHP** untuk proyek Moodle secara otomatis. Meng
 
 ## Fitur
 
-- ✅ Scan seluruh folder Moodle secara rekursif
-- ✅ Filter otomatis folder/file yang tidak relevan (`vendor`, `tests`, `node_modules`, dll.)
-- ✅ Dukungan sampling acak per modul (reproducible via `--seed`)
-- ✅ Export hasil ke **Excel (.xlsx)** dengan 4 sheet: Results, Summary, Module Comparison, Low Readability
-- ✅ Warna otomatis pada sel kategori (🟢 High / 🟡 Medium / 🔴 Low)
-- ✅ Generate **8 grafik visualisasi** dalam satu perintah
-- ✅ Auto-install dependensi Python yang belum terpasang
+-  Scan seluruh folder Moodle secara rekursif
+-  Filter otomatis folder/file yang tidak relevan (`vendor`, `tests`, `node_modules`, dll.)
+-  Dukungan sampling acak per modul (reproducible via `--seed`)
+-  Export hasil ke **Excel (.xlsx)** dengan 4 sheet: Results, Summary, Module Comparison, Low Readability
+-  Warna otomatis pada sel kategori ( High / Medium / Low)
+-  Generate **8 grafik visualisasi** dalam satu perintah
+-  Auto-install dependensi Python yang belum terpasang
 
 ---
 
@@ -33,9 +33,9 @@ Readability Score = 0.6 × LOC_Score + 0.4 × CD_Score
 
 | Skor | Kategori |
 |---|---|
-| ≥ 80 | 🟢 High |
-| 50 – 79 | 🟡 Medium |
-| < 50 | 🔴 Low |
+| ≥ 80 | High |
+| 50 – 79 | Medium |
+| < 50 | Low |
 
 ---
 
