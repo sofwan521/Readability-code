@@ -1,10 +1,10 @@
-# 📊 Moodle Readability Analyzer v3.0
+# Moodle Readability Analyzer v3.0
 
 Alat analisis **readability kode PHP** untuk proyek Moodle secara otomatis. Menggunakan [lizard](https://github.com/terryyin/lizard) untuk ekstraksi fungsi yang akurat, lalu menghitung skor keterbacaan berdasarkan dua metrik utama: **panjang fungsi (LOC)** dan **kepadatan komentar (Comment Density)** dengan bobot **60:40**.
 
 ---
 
-## ✨ Fitur
+## Fitur
 
 - ✅ Scan seluruh folder Moodle secara rekursif
 - ✅ Filter otomatis folder/file yang tidak relevan (`vendor`, `tests`, `node_modules`, dll.)
@@ -16,7 +16,7 @@ Alat analisis **readability kode PHP** untuk proyek Moodle secara otomatis. Meng
 
 ---
 
-## 📐 Formula Skor
+## Formula Skor
 
 Skor readability dihitung dari dua komponen dengan bobot:
 
@@ -39,7 +39,7 @@ Readability Score = 0.6 × LOC_Score + 0.4 × CD_Score
 
 ---
 
-## 🛠️ Instalasi
+## Instalasi
 
 Direkomendasikan menggunakan Python 3.8+.
 
@@ -60,7 +60,7 @@ pip install pandas matplotlib seaborn openpyxl lizard
 
 ---
 
-## 🚀 Cara Penggunaan
+## Cara Penggunaan
 
 ### Analisis semua folder (tanpa sampling)
 ```bash
@@ -111,7 +111,7 @@ python analisis_bobot_60_40.py \
 
 ---
 
-## 📁 Output
+## Output
 
 ### File Excel (`.xlsx`)
 Terdiri dari 4 sheet:
@@ -142,7 +142,7 @@ Terdiri dari 4 sheet:
 
 ---
 
-## 🚫 Folder yang Di-skip
+## Folder yang Di-skip
 
 Script secara otomatis mengabaikan folder dan file berikut:
 
@@ -152,7 +152,7 @@ File PHP dengan nama diawali `test_` atau diakhiri `_test.php` juga di-skip.
 
 ---
 
-## 📦 Dependensi
+## Dependensi
 
 | Library | Kegunaan |
 |---|---|
@@ -164,6 +164,6 @@ File PHP dengan nama diawali `test_` atau diakhiri `_test.php` juga di-skip.
 
 ---
 
-## 📄 Lisensi
+## Lisensi
 
 MIT License — bebas digunakan dan dimodifikasi untuk keperluan riset maupun pengembangan.
