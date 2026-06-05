@@ -97,7 +97,7 @@ python analisis_bobot_60_40.py \
 
 ---
 
-## ⚙️ Parameter CLI
+## Parameter CLI
 
 | Parameter | Singkat | Default | Deskripsi |
 |---|---|---|---|
